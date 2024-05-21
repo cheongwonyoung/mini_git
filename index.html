@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h3 style="text-align: center;"> 기호는 사칙연산만 가능합니다.</h3>
+        <table>
+            <tr>
+                <td>
+                    수식
+                </td>
+                <td>
+                    <input type="text" maxlength="20" id="input" oninput="input()">
+                </td>
+                <td align="center">
+                    <button type="button" class="submit" onclick="submit()">submit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    결과
+                </td>
+                <td>
+                    <input type="text" maxlength="20" readonly id="result">
+                </td>
+                <td align="center">
+                    <button type="button" class="reset" onclick="reset()">reset</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
