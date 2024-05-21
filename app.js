@@ -119,7 +119,11 @@ function submit() {
     return false;
   } else {
     let result = calculate(input);
+<<<<<<< HEAD
     document.getElementById("result").value = parseFloat(result).toFixed(2);
+=======
+    document.getElementById("result").value = result;
+>>>>>>> dev
     alert("정상적으로 입력되었습니다.");
   }
 }
