@@ -34,16 +34,15 @@
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
-<b>기호, 숫자가 아닌 값 입력시 초기화
-![alt text](image-3.png)
-<b>확인 버튼 클릭시, 수식과 결과 값 초기화
-<b>취소 버튼 클릭시, 초기화X
 
-<b> +
+![alt text](image-3.png)
+
+
+
 ![alt text](image-4.png)
-<b> -
+
 ![alt text](image-5.png)
-<b> \*
+
 ![alt text](image-6.png)
-<b> /
+
 ![alt text](image-7.png)
