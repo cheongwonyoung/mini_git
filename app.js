@@ -119,7 +119,11 @@ function submit() {
     return false;
   } else {
     let result = calculate(input);
+<<<<<<< HEAD
+    document.getElementById("result").value = parseFloat(result).toFixed(2);
+=======
     document.getElementById("result").value = result;
+>>>>>>> dev
     alert("정상적으로 입력되었습니다.");
   }
 }
@@ -161,10 +165,10 @@ function input() {
     last !== "+" &&
     last !== "-" &&
     last !== "*" &&
-    last !== "=" &&
+    last !== "/" &&
     Number.isNaN(las)
   ) {
-    alert("오류: +, -, *, = 이외의 문자가 포함되어 있습니다.");
+    alert("오류: +, -, *, / 이외의 문자가 포함되어 있습니다.");
     // 입력값 초기화 또는 다른 처리 가능
     document.getElementById("input").value = "";
   }
